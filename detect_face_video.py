@@ -20,7 +20,7 @@ while True:
 
     # Draw the rectangle around each face
     for (x, y, w, h) in faces:
-        cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
+        cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 1)
 
     # Display
     cv2.imshow('img', img)
